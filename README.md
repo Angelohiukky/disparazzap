@@ -262,7 +262,7 @@ Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 
 📈 Roadmap
 
-[ ] v2.0: Suporte a imagens e documentos
+[ ✅ ] v2.0: Suporte a imagens e documentos
 
 [ ] v2.1: Agendamento de mensagens
 
