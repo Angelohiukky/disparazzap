@@ -1,8 +1,8 @@
-📱 Disparador WhatsApp Desktop
+# 📱 Disparador WhatsApp Desktop
 
 Uma aplicação desktop poderosa para envio de mensagens personalizadas em massa via WhatsApp Web
 
-🚀 Características Principais
+## 🚀 Características Principais
 
 ✅ Interface Intuitiva: Design moderno e amigável inspirado no WhatsApp
 
@@ -26,7 +26,7 @@ Uma aplicação desktop poderosa para envio de mensagens personalizadas em massa
 
 ✅ Instalador Windows: Distribuição profissional com assistente de instalação.
 
-📋 Pré-requisitos
+## 📋 Pré-requisitos
 
 Windows 10/11 (64-bit)
 
@@ -36,7 +36,7 @@ Conexão com internet estável
 
 Arquivo CSV com contatos no formato: Nome;Telefone
 
-🔧 Instalação
+## 🔧 Instalação
 
 Opção 1: Usar o Instalador (Recomendado)
 
@@ -50,42 +50,42 @@ Inicie a aplicação pelo ícone na área de trabalho
 
 Opção 2: Executar do Código Fonte
 
-# Clone o repositório
-git clone [https://github.com/seu-usuario/disparador-whatsapp](https://github.com/seu-usuario/disparador-whatsapp)
+### Clone o repositório
+ ```` git clone [https://github.com/seu-usuario/disparador-whatsapp](https://github.com/seu-usuario/disparador-whatsapp)````
 
-# Entre no diretório
-cd disparador-whatsapp
+### Entre no diretório
+``cd disparador-whatsapp``
 
-# Instale as dependências
-npm install
+### Instale as dependências
+``npm install``
 
-# Execute a aplicação
-npm start
+### Execute a aplicação
+``npm start``
 
 
-📊 Como Usar
+## 📊 Como Usar
 
-1. Preparar o Arquivo CSV
+### 1. Preparar o Arquivo CSV
 
 Crie um arquivo CSV com o seguinte formato:
 
 
-João Silva;11999999999
+`` João Silva;11999999999
 Maria Santos;21988888888
-Pedro Costa;(11) 77777-7777
+Pedro Costa;(11) 77777-7777``
 
 
-2. Configurar a Mensagem
+### 2. Configurar a Mensagem
 
 Digite sua mensagem no campo de texto.
 
-Use {nome} para personalização automática.
+- Use {nome} para personalização automática.
 
-Use {opção1|opção2} para variar o texto (Spintax).
+- Use {opção1|opção2} para variar o texto (Spintax).
 
 Exemplo: {Olá|Oi} {nome}! {Tudo bem?|Como vai?}
 
-3. Iniciar o Processo
+### 3. Iniciar o Processo
 
 Selecione o arquivo CSV com seus contatos.
 
@@ -95,7 +95,7 @@ Escaneie o QR Code com seu WhatsApp.
 
 Acompanhe o progresso em tempo real.
 
-4. Controlar o Envio
+### 4. Controlar o Envio
 
 Pausar: Interrompe temporariamente os envios.
 
@@ -103,7 +103,7 @@ Retomar: Continua de onde parou.
 
 Parar: Finaliza completamente o processo.
 
-⏯️ Controles Durante o Envio
+## ⏯️ Controles Durante o Envio
 
 Depois de iniciar o processo, você terá acesso aos seguintes controles em tempo real:
 
@@ -113,7 +113,7 @@ Retomar: Continua o processo de envio do ponto em que foi pausado.
 
 Parar e Sair: Encerra completamente a sessão de envio. Ao final, um relatório será exibido.
 
-📄 Relatório Final e Download
+## 📄 Relatório Final e Download
 
 Ao final de cada processo (seja por conclusão ou interrupção), a aplicação exibirá um relatório completo com:
 
@@ -125,7 +125,7 @@ Número de Falhas
 
 Se houver alguma falha, um botão "Baixar Relatório de Falhas" ficará disponível, permitindo que você salve um arquivo .csv com os detalhes dos contatos que não receberam a mensagem e o motivo do erro.
 
-⚙️ Configurações Inteligentes
+## ⚙️ Configurações Inteligentes
 
 Recurso	Descrição	Valor
 Delay entre mensagens	Intervalo aleatório (Jitter) para evitar spam	15 - 25 segundos
@@ -135,7 +135,7 @@ Formato do número	Código do país + número	+55 (Brasil)
 
 Exportar para as Planilhas
 
-🛡️ Recursos de Segurança
+## 🛡️ Recursos de Segurança
 
 Autenticação Local: Suas credenciais ficam no seu computador
 
@@ -147,7 +147,7 @@ Verificação de Números: O sistema verifica se o número existe no WhatsApp an
 
 Variação de Mensagem (Spintax): Permite o uso de {opção1|opção2} na mensagem para que cada envio seja ligeiramente diferente.
 
-🔧 Desenvolvimento
+## 🔧 Desenvolvimento
 
 Tecnologias Utilizadas
 Electron - Framework para aplicações desktop
@@ -189,7 +189,7 @@ npm run pack
 npm run postinstall
 
 
-🚨 Limitações e Avisos
+## 🚨 Limitações e Avisos
 
 ⚠️ RISCO DE BLOQUEIO: O uso de automação com bibliotecas não oficiais (como esta) viola os Termos de Serviço do WhatsApp. Use esta ferramenta com moderação, por sua conta e risco. A API Oficial do WhatsApp Business é a única forma 100% segura.
 
@@ -201,7 +201,7 @@ npm run postinstall
 
 ⚠️ Conexão estável: Mantenha internet estável durante os envios.
 
-🐛 Solução de Problemas
+## 🐛 Solução de Problemas
 
 Problemas Comuns
 ❓ QR Code não aparece
@@ -228,25 +228,25 @@ Verifique se há memória RAM suficiente.
 
 Reinicie a aplicação se necessário.
 
-📞 Suporte
+## 📞 Suporte
 
 Encontrou um bug ou tem uma sugestão?
 
-📧 Email: ra.evangelist@gmail.com | hiukky.ra@gmail.com
+## 📧 Email: ra.evangelist@gmail.com | hiukky.ra@gmail.com
 
 🐛 Issues: GitHub Issues
 
 💬 Discussões: GitHub Discussions
 
-📄 Licença
+## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedor
 
 Rodrigo Angelo
 
-⭐ Contribuições
+## ⭐ Contribuições
 
 Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 
@@ -260,7 +260,7 @@ Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 
 🔃 Abra um Pull Request
 
-📈 Roadmap
+## 📈 Roadmap
 
 [ ✅ ] v2.0: Suporte a imagens e documentos
 
